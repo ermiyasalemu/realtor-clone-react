@@ -1,6 +1,10 @@
-export default function Home(){
+import Slider from "../components/Slider";
 
-    return (
-        <div> Home </div> 
-    )
+export default function Home() {
+  
+  return (
+    <div>
+      <Slider />
+    </div>
+  );
 }
